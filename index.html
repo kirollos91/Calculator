@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--  -->
+        <div class="calc">
+            <form class="calculator">
+                    <input class="inp-num" type="text" disabled placeholder="Press key" >
+                    <span id="btn-clear" class="btn-num" onclick="getOperator('c')">c</span>
+                    <span id="btn-navigate" class="btn-num" onclick="getOperator('nav')" title="shortcut=shift + _ " >-</span>
+                    <span id="btn-bkspace" class="btn-num" onclick="getOperator('b.s')">⟵</span>
+                    <span id="btn-add" class="btn-num" onclick="getOperator('+')">+</span>
+                    <span id="btn-7" class="btn-num" onclick="getNumber('7')">7</span>
+                    <span id="btn-8" class="btn-num" onclick="getNumber('8')">8</span>
+                    <span id="btn-9" class="btn-num" onclick="getNumber('9')">9</span>
+                    <span id="btn-sub" class="btn-num" onclick="getOperator('-')">-</span>
+                    <span id="btn-4" class="btn-num" onclick="getNumber('4')">4</span>
+                    <span id="btn-5" class="btn-num" onclick="getNumber('5')">5</span>
+                    <span id="btn-6" class="btn-num" onclick="getNumber('6')">6</span>
+                    <span id="btn-mult" class="btn-num" onclick="getOperator('*')">x</span>
+                    <span id="btn-1" class="btn-num" onclick="getNumber('1')">1</span>
+                    <span id="btn-2" class="btn-num" onclick="getNumber('2')">2</span>
+                    <span id="btn-3" class="btn-num" onclick="getNumber('3')">3</span>
+                    <span id="btn-div" class="btn-num" onclick="getOperator('/')">÷</span>
+                    <span id="btn-0" class="btn-num zero" onclick="getNumber('0')">0</span>
+                    <span id="btn-dot" class="btn-num" onclick="getOperator('.')">.</span>
+                    <span id="btn-equal" class="btn-num" onclick="getOperator('=')">=</span>
+            </form>    
+        </div>    
+        <!--  -->
+        
+        <!--  -->
+        
+        <!--  -->
+
+        <!--  -->
+
+        <!--  -->
+        <script src="main.js"></script>
+    </body>
+</html>
